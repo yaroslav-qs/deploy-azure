@@ -61,7 +61,7 @@
     "@types/uuid": "^9.0.1",
     "nodemon": "^2.0.22",
     "@babel/preset-typescript": "^7.16.7",
-    "@faker-js/faker": "^7.6.0",,
+    "@faker-js/faker": "^7.6.0",
     "@types/dotenv": "^8.2.0",
     "@types/encoding-japanese": "^2.0.0",
     "@types/jest": "^27.5.1",
