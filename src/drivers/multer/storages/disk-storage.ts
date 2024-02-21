@@ -5,7 +5,7 @@ import path from 'path'
 const FILE_PATH = process.env.FILE_PATH || '/public'
 
 export default multer.diskStorage({
-  destination: function (req, file, cb) {
+  destination: function (_req, _file, cb) {
     cb(null, path.join(process.cwd(), FILE_PATH))
   },
   filename: function (req, file, cb) {
