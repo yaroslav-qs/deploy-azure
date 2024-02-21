@@ -130,3 +130,6 @@ tmp
 .DS_Store
 
 /public/*
+
+# Docker cache
+.docker
